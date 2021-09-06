@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFF0000"
+        android:textSize="60dp"
+        android:text=""/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:textColor="#005EFF"
+    android:textSize="60dp"
+    android:text="상체 운동"/>
+
+<Button
+    android:id="@+id/btn_move"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:textSize="30dp"
+    android:text="이동"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFF0000"
+        android:textSize="60dp"
+        android:text=""/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#FF0059"
+        android:textSize="60dp"
+        android:text="하체 운동"/>
+
+    <Button
+        android:id="@+id/btn_move2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:text="이동"/>
+
+
+</TableLayout>
